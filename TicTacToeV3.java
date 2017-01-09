@@ -79,7 +79,7 @@ public class TicTacToeV3 {
             while(correctSize == false){    //Kör tills den fått ett korrekt värde till brädstorleken
                 System.out.print("\n" + "Storlek på bräde (3 - 9): ");
                 input = scan.nextInt();
-                if(input > 2 && input <= 9){
+                if(input > 2 || input <= 9){
                     correctSize = true;
                 }
                 else{
