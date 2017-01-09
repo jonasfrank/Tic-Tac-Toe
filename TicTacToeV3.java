@@ -1,4 +1,4 @@
-
+//Skall du äta lunch här?
 package tictactoev3;
 import java.util.*;
 
@@ -8,8 +8,8 @@ public class TicTacToeV3 {
 
     public static void main(String[] args) {
 
-        Player p1 = null;
-        Player p2 = null;        
+        Player p1 = null; //Comment
+        Player p2 = null; //Comment
         String name1;
         String name2;
         
